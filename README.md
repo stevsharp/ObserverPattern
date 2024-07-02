@@ -25,3 +25,27 @@ Observers are notified whenever the `Flag` property of a `Celebrity` object chan
 1. Clone the repository:
    ```bash
    git clone https://github.com/stevsharp/ObserverPattern.git
+
+Classes
+ICelebrity
+An interface that represents a celebrity with a Name and a Flag property.
+
+Celebrity
+A class that implements the ICelebrity interface and notifies observers when the Flag property changes.
+
+CelebrityNotifier
+A class that implements IObservable<CelebrityFlagChangedEventArgs> and manages a list of observers. It notifies them of any changes.
+
+CelebrityObserver
+A class that implements IObserver<CelebrityFlagChangedEventArgs> and defines how to handle notifications from the CelebrityNotifier.
+
+Contributing
+Contributions are welcome! Please fork this repository, create a feature branch, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+Fork the repository
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a pull request
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
