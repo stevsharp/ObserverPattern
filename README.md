@@ -1,4 +1,4 @@
-# Observer Pattern in C#
+# Observer Pattern in C# using IObservable and IObserver Interfaces
 
 This repository contains a demonstration of the Observer Pattern implemented in C#. The Observer Pattern is a design pattern where an object, called the subject, maintains a list of its dependents, called observers, and notifies them of state changes, usually by calling one of their methods.
 
