@@ -39,10 +39,10 @@ A class that implements IObservable<CelebrityFlagChangedEventArgs> and manages a
 CelebrityObserver
 A class that implements IObserver<CelebrityFlagChangedEventArgs> and defines how to handle notifications from the CelebrityNotifier.
 
-Contributing
+### Contributing
 Contributions are welcome! Please fork this repository, create a feature branch, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-Fork the repository
+### Fork the repository
 Create your feature branch (git checkout -b feature/AmazingFeature)
 Commit your changes (git commit -m 'Add some AmazingFeature')
 Push to the branch (git push origin feature/AmazingFeature)
