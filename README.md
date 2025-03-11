@@ -49,3 +49,7 @@ Push to the branch (git push origin feature/AmazingFeature)
 Open a pull request
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/spyros-ponaris-913a6937/)
